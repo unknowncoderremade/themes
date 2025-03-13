@@ -1,0 +1,29 @@
+/* Set the background color of the Discord app */
+html {
+    background-color: #2f3136 !important;
+}
+
+/* Change the font style of the text */
+body {
+    font-family: 'Arial', sans-serif !important;
+}
+
+/* Customize sidebar colors */
+.sidebar-2K0p6r {
+    background-color: #1e2124 !important;
+}
+
+/* Change text color in the chat */
+.message-3_B7Y6 {
+    color: #ffffff !important;
+}
+
+/* Add custom scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+}
