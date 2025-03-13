@@ -1,29 +1,78 @@
-/* Set the background color of the Discord app */
-html {
-    background-color: #2f3136 !important;
+/* General background color - very dark black */
+html, body {
+    background-color: #0d0d0d !important;  /* Deep black background */
 }
 
-/* Change the font style of the text */
-body {
-    font-family: 'Arial', sans-serif !important;
-}
-
-/* Customize sidebar colors */
+/* Sidebar (left menu) background */
 .sidebar-2K0p6r {
-    background-color: #1e2124 !important;
+    background-color: #1a1a1a !important;  /* Dark black background */
 }
 
-/* Change text color in the chat */
-.message-3_B7Y6 {
-    color: #ffffff !important;
+/* Channel list background */
+.channels-3FjoLJ {
+    background-color: #121212 !important;  /* Dark black background */
 }
 
-/* Add custom scrollbars */
+/* Server icons background */
+.guilds-3l_jDL {
+    background-color: #0d0d0d !important;  /* Very dark black for server icons */
+}
+
+/* Message background */
+.message-3_B7Y6r {
+    background-color: #181818 !important;  /* Slightly lighter black for messages */
+}
+
+/* User name and text color */
+.message-3_B7Y6r, .username-1A0Ht8, .timestamp-3gd5yq, .content-2YSkvB {
+    color: #e5e5e5 !important;  /* Soft white text for readability */
+}
+
+/* Message hover effect */
+.message-3_B7Y6r:hover {
+    background-color: #222222 !important;  /* Dark gray hover effect */
+}
+
+/* Input box (chat box) background */
+.container-3h5FYd {
+    background-color: #222222 !important;  /* Dark gray input box */
+}
+
+/* User and server name color */
+.name-1_Y6eb, .active-2gPMg9 {
+    color: #ffffff !important;  /* Bright white user names */
+}
+
+/* Scrollbars */
 ::-webkit-scrollbar {
     width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #555;
+    background-color: #555 !important;
     border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333 !important;
+}
+
+/* Hover over sidebar or server icon */
+.guild-3LB_D2:hover, .sidebar-2K0p6r:hover {
+    background-color: #141414 !important;  /* Slight hover effect for better UX */
+}
+
+/* Adjusting settings background */
+.settings-2rbwxy {
+    background-color: #181818 !important;
+}
+
+/* Status indicators (online, idle, etc.) */
+.status-2KfH1r {
+    background-color: #4caf50 !important; /* Green online status */
+}
+
+/* Bot / system messages */
+.bot-2_5z7J {
+    color: #ff5c5c !important;  /* Red color for bot messages */
 }
